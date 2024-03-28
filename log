@@ -1,0 +1,10 @@
+Thu 28 Mar 2024 02:24:40 PM UTC: 
+ list.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:37: error: expected expression before ‘>’ token
+   42 |   if (list -> current) return list- > current -> data;
+      |                                     ^
+Compilation failed
+3309063
