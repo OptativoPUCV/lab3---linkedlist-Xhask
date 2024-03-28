@@ -40,3 +40,14 @@ Thu 28 Mar 2024 02:38:44 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 2b4d3b3
+Thu 28 Mar 2024 02:42:37 PM UTC: 
+ list.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘lastList’:
+list.c:56:21: error: assignment to ‘Node *’ from incompatible pointer type ‘void * (*)(List *)’ {aka ‘void * (*)(struct List *)’} [-Werror=incompatible-pointer-types]
+   56 |     list -> current = nextList;
+      |                     ^
+cc1: all warnings being treated as errors
+Compilation failed
+f4ba0ff
