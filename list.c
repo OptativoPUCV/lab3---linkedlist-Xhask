@@ -125,6 +125,7 @@ void * popCurrent(List * list) {
     else
       list -> tail = NULL;      
   }
+  return list -> current -> data;
 }  
 void cleanList(List * list) {
     while (list->head != NULL) {
