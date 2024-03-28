@@ -117,15 +117,15 @@ void * popBack(List * list) {
 
 void * popCurrent(List * list) {
   if (list -> current == NULL) return NULL;
-  if (list -> current == list -> head){
+  if (list -> current == list -> head)
+  {
     list -> head = list -> current -> next;
     if (list -> head != NULL)
       list -> head -> prev = NULL;
     else
-      list -> tail = NULL;    
+      list -> tail = NULL;      
   }
-}
-
+  
 void cleanList(List * list) {
     while (list->head != NULL) {
         popFront(list);
