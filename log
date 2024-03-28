@@ -91,3 +91,15 @@ Thu 28 Mar 2024 02:55:18 PM UTC:
  tests:  10|2
 total_score: 45/70
 fcc805a
+Thu 28 Mar 2024 02:57:37 PM UTC: 
+ list.c | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+In file included from test.c:5:
+list.c:107:3: error: expected identifier or ‘(’ before ‘}’ token
+  107 |   }
+      |   ^
+list.c:109:1: error: expected identifier or ‘(’ before ‘}’ token
+  109 | }
+      | ^
+Compilation failed
+769702a
