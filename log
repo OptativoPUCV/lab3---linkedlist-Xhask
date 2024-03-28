@@ -8,3 +8,7 @@ list.c:42:37: error: expected expression before ‘>’ token
       |                                     ^
 Compilation failed
 3309063
+Thu 28 Mar 2024 02:24:57 PM UTC: 
+ tests:  5|4
+total_score: 25/70
+e63f348
