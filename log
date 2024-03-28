@@ -12,3 +12,20 @@ Thu 28 Mar 2024 02:24:57 PM UTC:
  tests:  5|4
 total_score: 25/70
 e63f348
+Thu 28 Mar 2024 02:32:59 PM UTC: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘lastList’:
+list.c:55:12: error: ‘List’ {aka ‘struct List’} has no member named ‘next’
+   55 |   if (list -> next == NULL)
+      |            ^~
+list.c:57:5: error: expected identifier before ‘return’
+   57 |     return list -> data;
+      |     ^~~~~~
+list.c:58:1: error: control reaches end of non-void function [-Werror=return-type]
+   58 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+772705d
