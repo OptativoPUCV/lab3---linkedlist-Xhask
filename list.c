@@ -52,12 +52,17 @@ void * nextList(List * list) {
 }
 
 void * lastList(List * list) {
-  if (list -> next == NULL)
-    list -> current = list ->   
-    return list -> data;
+  while (list -> current != NULL)
+    {
+      list -> current = list -> current -> next;
+    }
+  if (list -> current != NULL)
+    return list -> current -> data;
+  else return NULL;
 }
 
 void * prevList(List * list) {
+  
     return NULL;
 }
 
