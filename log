@@ -51,3 +51,9 @@ list.c:56:21: error: assignment to ‘Node *’ from incompatible pointer type �
 cc1: all warnings being treated as errors
 Compilation failed
 f4ba0ff
+Thu 28 Mar 2024 02:43:16 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|4
+total_score: 25/70
+bab34c4
